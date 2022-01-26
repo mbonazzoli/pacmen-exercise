@@ -1,9 +1,20 @@
 # pacmen
 Factory for making pacmen
-You are given a starter.html code.
-When button "make one" is pressed you need to complete the code 
-to position the new pacman image and add it to the "game" div. It is then added to the array of pacmen, which keeps track of the position and velocity of each pacman.
-You also need to make each pacman bounce off any wall it hits. 
-Start by getting at least one pacman positioned and viewable. 
+Pacmen will get added to the screen and bounce around as you press the "make one" button
 
-<img src="images/PacMan1.png">
+## Downloading/Installation
+The repo can be cloned and run on a users local machine, but is closed for public pull requests.
+
+To clone the project just run 
+```
+git clone https://github.com/mbonazzoli/pacmen-exercise.git
+```
+
+Otherwise, a zip file of this project can be downloaded
+
+## Run the app
+Once the project is installed either through cloning the repo or downloading the zip,
+Open the starter.html file in the browser you can click on the "make one" button to add more pacmen around the screen.
+
+## Future Improvements
+Add ability to track different bus routes by connecting to differe transit apis and different locations.
